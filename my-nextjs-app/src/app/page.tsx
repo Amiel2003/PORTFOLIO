@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Cover from '../components/Cover';
+import About from '../components/About';
 
 const Home = () => {
   return (
@@ -8,37 +10,32 @@ const Home = () => {
       <Header title="My Header" />
 
       <main>
-      <header>
-  <div className="cover bg-light">
-    <div className="container px-3">
-      <div className="row">
-        <div className="col-lg-6 p-2"><img className="img-fluid" src="images/me.png" alt="hello"/></div>
-        <div className="col-lg-6">
-          <div className="mt-5">
-            <p className="lead text-uppercase mb-1">My Name Is</p>
-            <h1 className="intro-title">
-              AMIEL JAY <span className="highlight">OCIER</span>
-            </h1>
-            <p className="lead fw-normal mt-3">Web Developer & Mobile Application Developer</p>
-            <div className="social-nav" >
-              <nav role="navigation">
-                <ul className="nav justify-content-left">
-                  <li className="nav-item"><a className="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i className="fab fa-twitter"></i><span className="menu-title sr-only">Twitter</span></a></li>
-                  <li className="nav-item"><a className="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i className="fab fa-facebook"></i><span className="menu-title sr-only">Facebook</span></a></li>
-                  <li className="nav-item"><a className="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i className="fab fa-instagram"></i><span className="menu-title sr-only">Instagram</span></a></li>
-                  <li className="nav-item"><a className="nav-link" href="https://www.linkedin.com/" title="LinkedIn"><i className="fab fa-linkedin"></i><span className="menu-title sr-only">LinkedIn</span></a></li>
-                  <li className="nav-item"><a className="nav-link" href="https://www.behance.net/templateflip" title="Behance"><i className="fab fa-behance"></i><span className="menu-title sr-only">Behance</span></a></li>
-                </ul>
-              </nav>
-            </div>
-            <div className="mt-3" data-aos="fade-up" data-aos-delay="200"><a className="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i className="fas fa-arrow-right"></i></a></div>
-          </div>
-        </div>
+        <Cover title='My Cover' />
+        <About title='My About' />
+        <div className="section px-3 px-lg-4 pt-5" id="services">
+  <div className="container-narrow">
+    <div className="text-center mb-5">
+      <h2 className="marker marker-center">My Services</h2>
+    </div>
+    <div className="text-center">
+    <p className="mx-auto mb-3" style={{ maxWidth: '600px' }}>
+  I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.
+</p>
+
+    </div>
+    <div className="row py-2">
+      <div className="col-md-3 text-center"><img className="mb-2" src="images/services/web-design.svg" width="96" height="96" alt="web design"/>
+        <div className="h5">Web Design</div>
+      </div>
+      <div className="col-md-3 text-center"><img className="mb-2" src="images/services/graphic-design.svg" width="96" height="96" alt="graphic design"/>
+        <div className="h5">Graphic Design</div>
+      </div>
+      <div className="col-md-3 text-center"><img className="mb-2" src="images/services/ui-ux.svg" width="96" height="96" alt="ui-ux"/>
+        <div className="h5">UI/UX</div>
       </div>
     </div>
   </div>
-  <div className="wave-bg"></div>
-</header>
+</div>
       </main>
 
       <Footer title="My Footer" />

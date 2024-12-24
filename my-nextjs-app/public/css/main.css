@@ -29,6 +29,20 @@ html {
   color: #224087; /* Example color, you can change it to your desired color */
 }
 
+.image-container {
+  width: 600px;  /* Set the container width */
+  height: 560px; /* Set the container height to crop the lower part */
+  overflow: hidden; /* Hide the content that's out of bounds */
+}
+
+.cropped-image {
+  object-fit: cover; /* Ensures the image covers the container */
+  object-position: top; /* Ensures the crop happens from the bottom */
+  width: 100%;
+  height: 100%;
+}
+
+
 /* Header */
 .site-title {
   font-size: 1.5rem;
