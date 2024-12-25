@@ -29,6 +29,22 @@ html {
   color: #224087; /* Example color, you can change it to your desired color */
 }
 
+.title-desc{
+  font-family: "Poppins";
+}
+
+.main-content{
+  margin-bottom: 100px;
+}
+
+.expertise{
+  background: "red";
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "center";
+}
+
 .image-container {
   width: 600px;  /* Set the container width */
   height: 560px; /* Set the container height to crop the lower part */

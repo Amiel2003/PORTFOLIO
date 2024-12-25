@@ -11,7 +11,7 @@ const About: React.FC<AboutProps> = ({ title }) => {
   <div className="container-narrow">
     <div className="row">
       <div className="col-md-6">
-        <h2 className="h4 my-2">Hello! I’m Walter Patterson.</h2>
+        <h2 className="h4 my-2 title-desc">Hello! I’m Walter Patterson.</h2>
         <p>I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
         <div className="row mt-3">
           <div className="col-sm-2">
