@@ -45,7 +45,7 @@ const Projects: React.FC<Projects> = ({ title }) => {
             </div>
           </div>
           <div className="card-body px-3 py-2">
-          <div><img className="img-fluid mt-2" src="images/dormy.png" alt="Walter Patterson"/></div>
+          <div><img className="img-fluid mt-2" src="images/dormy.PNG" alt="Walter Patterson"/></div>
             <div style={{marginTop: "18px"}}>
             <p>I also helped develop a dorm management system for the school's dorm system as a project requirement as a backend developer.
               This project aims to manage and monitor dorm transactions and room allocation which applies to all dorms in the university. 
@@ -66,7 +66,7 @@ const Projects: React.FC<Projects> = ({ title }) => {
             </div>
           </div>
           <div className="card-body px-3 py-2">
-          <div><img className="img-fluid mt-2" src="images/pedro.png" alt="Walter Patterson"/></div>
+          <div><img className="img-fluid mt-2" src="images/pedro.PNG" alt="Walter Patterson"/></div>
             <div style={{marginTop: "18px"}}>
             <p>Having the chance to develop a system for a business made my group knowledgeable on project management and monitoring.
               This system provides POS and Inventory System of a renowned Lechon Manok store in the city which automates their transactions.
@@ -87,7 +87,7 @@ const Projects: React.FC<Projects> = ({ title }) => {
             </div>
           </div>
           <div className="card-body px-3 py-2">
-          <div><img className="img-fluid mt-2" src="images/borrow.png" alt="Walter Patterson"/></div>
+          <div><img className="img-fluid mt-2" src="images/borrow.PNG" alt="Walter Patterson"/></div>
             <div style={{marginTop: "18px"}}>
             <p>As the first system project in my IT journey, we have developed a book borrowing system prototype, which allows the borrowing of books and keep track of records.
               This project did not include backend or server-side programming since it is our first ever system project. Hence, we got to focus on the UI/UX side of the system
