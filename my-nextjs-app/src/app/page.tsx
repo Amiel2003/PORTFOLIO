@@ -12,6 +12,7 @@ const Home = () => {
 
   return (
     <>      
+      <title>PORTFOLIO</title>
       <Header title="My Header"/>
 
       <main className='main-content'>

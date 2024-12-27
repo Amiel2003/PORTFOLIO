@@ -26,6 +26,7 @@ const Home = () => {
 
   return (
     <>      
+      <title>PROJECTS</title>
       <Header title="My Header"/>
 
       <main className='main-content'>

@@ -30,6 +30,7 @@ const Home = () => {
 
   return (
     <>      
+      <title>ABOUT</title>
       <Header title="My Header"/>
 
       <main className='main-content'>
