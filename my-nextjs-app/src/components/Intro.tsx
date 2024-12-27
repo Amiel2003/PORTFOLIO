@@ -12,7 +12,20 @@ const Intro: React.FC<IntroPops> = ({ title }) => {
     <div className="row">
       <div className="col-md-6">
         <h2 className="h4 my-2 title-desc">GREETINGS!</h2>
-        <p>I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of.</p>
+        <p>Allow this portfolio to showcase the skills, experiences, and projects I have developed during my journey as an IT student. This portfolio serves as a reflection of my growth, dedication, and passion for technology. To start off let me show you what <strong><b>skills</b></strong> I acquire, and these <strong><b>skills</b></strong> are as follows:</p>
+          <div className="col-sm-10">
+            <div className="pb-1 fw-bolder "><h5 className='title-desc'>Critical Thinking</h5></div>
+          </div>
+          <div className="col-sm-10">
+            <div className="pb-1 fw-bolder title-desc"><h5 className='title-desc'>Effective Communication</h5></div>
+          </div>     
+          <div className="col-sm-10">
+            <div className="pb-1 fw-bolder title-desc"><h5 className='title-desc'>Leadership</h5></div>
+          </div>
+          <div className="col-sm-10">
+            <div className="pb-1 fw-bolder title-desc"><h5 className='title-desc'>Teamwork</h5></div>
+          </div>        
+         
       </div>
       <div className="col-md-5 offset-md-1"><img className="avatar img-fluid mt-2" src="images/intro.jpg" width="400" height="400" alt="Walter Patterson"/></div>
     </div>

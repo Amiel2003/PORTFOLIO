@@ -18,15 +18,29 @@ const Cover: React.FC<CoverProps> = ({ title }) => {
               <h1 className="intro-title">
                 AMIEL JAY <span className="highlight">OCIER</span>
               </h1>
-              <p className="lead fw-normal mt-3">Web Developer & Mobile Application Developer</p>
+              <p className="lead fw-normal mt-3">Web Developer & Designer Intern</p>
               <div className="social-nav" >
                 <nav role="navigation">
                   <ul className="nav justify-content-left">
-                    <li className="nav-item"><a className="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i className="fab fa-twitter"></i><span className="menu-title sr-only">Twitter</span></a></li>
-                    <li className="nav-item"><a className="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i className="fab fa-facebook"></i><span className="menu-title sr-only">Facebook</span></a></li>
-                    <li className="nav-item"><a className="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i className="fab fa-instagram"></i><span className="menu-title sr-only">Instagram</span></a></li>
-                    <li className="nav-item"><a className="nav-link" href="https://www.linkedin.com/" title="LinkedIn"><i className="fab fa-linkedin"></i><span className="menu-title sr-only">LinkedIn</span></a></li>
-                    <li className="nav-item"><a className="nav-link" href="https://www.behance.net/templateflip" title="Behance"><i className="fab fa-behance"></i><span className="menu-title sr-only">Behance</span></a></li>
+                  <li className="nav-item">
+    <a className="nav-link" href="https://x.com/prodbymrepee" title="Twitter" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-twitter"></i>
+        <span className="menu-title sr-only">Twitter</span>
+    </a>
+</li>
+<li className="nav-item">
+    <a className="nav-link" href="https://web.facebook.com/amieljay.ocier/" title="Facebook" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-facebook"></i>
+        <span className="menu-title sr-only">Facebook</span>
+    </a>
+</li>
+<li className="nav-item">
+    <a className="nav-link" href="https://www.instagram.com/mr_epee/profilecard/?igsh=MTd0Y2F2em53YW5kbA==" title="Instagram" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-instagram"></i>
+        <span className="menu-title sr-only">Instagram</span>
+    </a>
+</li>
+
                   </ul>
                 </nav>
               </div>

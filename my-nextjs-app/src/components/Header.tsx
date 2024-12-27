@@ -22,10 +22,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
                   <a href="/about" className="nav-link">About</a>
                 </li>
                 <li className="nav-item">
-                  <a href="/contact" className="nav-link">Projects</a>
-                </li>
-                <li className="nav-item">
-                  <a href="/contact" className="nav-link">Contact</a>
+                  <a href="/projects" className="nav-link">Projects</a>
                 </li>
               </ul>
           </div>

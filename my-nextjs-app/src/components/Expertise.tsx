@@ -15,7 +15,7 @@ const Expertise: React.FC<ExpertiseProps> = ({ title }) => {
       <h2 className='title-desc'>EXPERTISE IN IT</h2>
     </div>
     <div className="text-center">
-      <p className="mx-auto mb-3" style={{maxWidth: "600px"}}> I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.</p>
+      <p className="mx-auto mb-3" style={{maxWidth: "600px"}}> I have developed some capabalilties during my IT studnent journey</p>
     </div>
     <div className="row py-3"  style={{display: "flex",flexDirection: "row",alignItems: "center",justifyContent: "center",}} >
     <div className="col-md-3 text-center" style={{display: "flex",flexDirection: "column",alignItems: "center",justifyContent: "center",}}>

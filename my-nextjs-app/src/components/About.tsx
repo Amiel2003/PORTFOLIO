@@ -11,44 +11,44 @@ const About: React.FC<AboutProps> = ({ title }) => {
   <div className="container-narrow">
     <div className="row">
       <div className="col-md-6">
-        <h2 className="h4 my-2 title-desc">Hello! I’m Walter Patterson.</h2>
-        <p>I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
+        <h2 className="h4 my-2 title-desc">Hello! I’m Amiel Jay Ocier.</h2>
+        <p>An enthusiastic 4th year student who is ready to apply the
+          academic knowledge and hands-on skills in a real-world
+          internship setting. Eager to learn, collaborate, and
+          contribute to a dynamic team, I am looking for an
+          opportunity to gain valuable experience, further develop
+          my expertise, and make a positive impact in the IT field.</p>
         <div className="row mt-3">
           <div className="col-sm-2">
             <div className="pb-1">Age:</div>
           </div>
           <div className="col-sm-10">
-            <div className="pb-1 fw-bolder">28</div>
+            <div className="pb-1 fw-bolder">21</div>
           </div>
           <div className="col-sm-2">
             <div className="pb-1">Email:</div>
           </div>
           <div className="col-sm-10">
-            <div className="pb-1 fw-bolder">walter@company.com</div>
-          </div>
-          <div className="col-sm-2">
-            <div className="pb-1">Skype:</div>
-          </div>
-          <div className="col-sm-10">
-            <div className="pb-1 fw-bolder">username@skype.com</div>
+            <div className="pb-1 fw-bolder">2101102216@student.buksu.edu.ph</div>
           </div>
           <div className="col-sm-2">
             <div className="pb-1">Phone:</div>
           </div>
           <div className="col-sm-10">
-            <div className="pb-1 fw-bolder">+0718-111-0011</div>
+            <div className="pb-1 fw-bolder">+63 953 806 9911</div>
           </div>
           <div className="col-sm-2">
             <div className="pb-1">Address:</div>
           </div>
           <div className="col-sm-10">
-            <div className="pb-1 fw-bolder">New Delhi, India</div>
+            <div className="pb-1 fw-bolder">Purok 10, Poblacion,
+            Cabanglasan, Bukidnon</div>
           </div>
           <div className="col-sm-2">
-            <div className="pb-1">Staus:</div>
+            <div className="pb-1">Status:</div>
           </div>
           <div className="col-sm-10">
-            <div className="pb-1 fw-bolder">Available</div>
+            <div className="pb-1 fw-bolder">Single</div>
           </div>
         </div>
       </div>
